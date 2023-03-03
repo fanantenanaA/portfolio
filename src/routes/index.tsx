@@ -11,7 +11,7 @@ export default function Home() {
      crossorigin="anonymous"></script>
       <p>
         Visit{" "}
-        <a href="https://start.solidjs.com" target="_blank">
+        <a href="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2482193245390022" target="_blank">
           start.solidjs.com
         </a>{" "}
         copyright2023.
