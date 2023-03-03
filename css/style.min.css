@@ -209,9 +209,9 @@ section {
 .rectangle-1 {
   width: 2000px;
   height: 400px;
-  background: #8E2DE2;
-  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
-  background: linear-gradient(to right, #4A00E0, #8E2DE2);
+  background: #01ffc0;
+  background: -webkit-linear-gradient(to right, #01ffc0, #006e4d);
+  background: linear-gradient(to right, #01ffc0, #006e4d);
   transform-origin: 50% 150% 0;
   position: absolute;
   left: 0;
@@ -221,9 +221,9 @@ section {
 .rectangle-2 {
   width: 2000px;
   height: 400px;
-  background: #8E2DE2;
-  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
-  background: linear-gradient(to right, #4A00E0, #8E2DE2);
+  background: #01ffc0;
+  background: -webkit-linear-gradient(to right, #006e4d, #01ffc0);
+  background: linear-gradient(to right, #006e4d, #01ffc0);
   transform-origin: 65% 100% 0;
   position: absolute;
   right: 0;
