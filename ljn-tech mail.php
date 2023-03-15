@@ -8,7 +8,6 @@ require 'vendor/autoload.php'; // If you're using Composer (recommended)
 // replacing <PATH TO> with the path to the sendgrid-php.php file,
 // which is included in the download:
 // https://github.com/sendgrid/sendgrid-php/releases
-//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
 $email = new \SendGrid\Mail\Mail(); 
 $email->setFrom("test@example.com", "Example User");
 $email->setSubject("Sending with SendGrid is Fun");
