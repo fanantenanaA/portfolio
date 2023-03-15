@@ -41,10 +41,10 @@
 
     $('.owl-services').owlCarousel({
         items:4,
-        loop:true,
+        loop:false,
         dots: true,
         nav: false,
-        autoplay: true,
+        autoplay: false,
         margin:5,
           responsive:{
               0:{
