@@ -524,20 +524,7 @@ https://templatemo.com/tm-565-onix-digital
         }
     });
     $(document).ready(function () {
-      function onScroll(event){
-      var scrollPos = $(document).scrollTop();
-      $('.nav a').each(function () {
-          var currLink = $(this);
-          var refElement = $(currLink.attr("href"));
-          if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-              $('.nav ul li a').removeClass("active");
-              currLink.addClass("active");
-          }
-          else{
-              currLink.removeClass("active");
-          }
-      });
-  }
+     
       $(document).on("scroll", onScroll);
       
       //smoothscroll
@@ -557,12 +544,26 @@ https://templatemo.com/tm-565-onix-digital
           $('html, body').stop().animate({
               scrollTop: (target.offset().top) + 1
           }, 500, 'swing', function () {
-              window.location.hash == target;
+              window.location.hash = target;
               console.log(target)
               $(document).on("scroll", onScroll);
           });
       });
-});
+      function onScroll(event){
+      var scrollPos = $(document).scrollTop();
+      $('.nav a').each(function () {
+          var currLink = $(this);
+          var refElement = $(currLink.attr("href"));
+          if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+              $('.nav ul li a').removeClass("active");
+              currLink.addClass("active");
+          }
+          else{
+              currLink.removeClass("active");
+          }
+      });
+    }
+  });
   </script>
   <!-- Google Analytics -->
 <!-- <script>
