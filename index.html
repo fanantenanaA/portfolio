@@ -551,7 +551,7 @@ https://templatemo.com/tm-565-onix-digital
       var scrollPos = $(document).scrollTop();
       $('.nav a').each(function () {
           var currLink = $(this);
-          console.log(currLink.href);
+          console.log(currLink.attr("href"));
           var refElement = $(currLink.attr("href"));
           if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
               $('.nav ul li a').removeClass("active");
