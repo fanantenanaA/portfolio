@@ -538,10 +538,11 @@ https://templatemo.com/tm-565-onix-digital
         
           var target = this.hash,
           menu = target;
+          console.log(menu)
           var target = $(this.hash);
           $('html, body').stop().animate({
               scrollTop: (target.offset().top) + 1
-          }, 100, 'swing', function () {
+          }, 500, 'swing', function () {
               window.location.hash = target;
               $(document).on("scroll", onScroll);
           });
