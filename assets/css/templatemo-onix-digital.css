@@ -177,7 +177,7 @@ body {
 
 .section-heading h2 {
   font-size: 30px;
-  text-transform: capitalize;
+ /* text-transform: capitalize;*/
   color: #2a2a2a;
   font-weight: 700;
   letter-spacing: 0.25px;
