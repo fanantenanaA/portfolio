@@ -975,6 +975,12 @@ button.main-btn span {
   h2 {
     font-size: 2rem !important;
   }
+  .main-title span{
+    font-size: 2rem !important;
+  }
+  .large-text{
+    font-size: 2rem !important;
+  }
   h3 {
     font-size: 1.5rem !important;
   }
