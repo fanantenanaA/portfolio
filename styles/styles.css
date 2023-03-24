@@ -968,3 +968,8 @@ button.main-btn span {
   font-size: 16px;
   font-weight: 600;
 }
+@media (max-width:481px)  {
+  h1 h2{
+    font-size: 2rem;
+  }
+}
