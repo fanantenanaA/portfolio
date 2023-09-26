@@ -177,6 +177,7 @@ section {
   margin-left: 4rem;
   background-color: var(--color-black);
   transition: all 0.4s ease-in-out;
+  background-position: 80% right;
 }
 .header-content .left-header .image img {
   width: 100%;
@@ -184,7 +185,6 @@ section {
   object-fit: cover;
   transition: all 0.4s ease-in-out;
   filter: grayscale(100%);
-  background-position: 80% right;
 }
 .header-content .left-header .image img:hover {
   filter: grayscale(0);
