@@ -184,6 +184,7 @@ section {
   object-fit: cover;
   transition: all 0.4s ease-in-out;
   filter: grayscale(100%);
+  background-position: 80% right;
 }
 .header-content .left-header .image img:hover {
   filter: grayscale(0);
